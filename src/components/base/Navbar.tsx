@@ -12,7 +12,7 @@ export default function Navbar() {
           to="about"
           smooth
           duration={400}
-          className="mx-1 md:mx-12 my-6 md:my-10 text-xs cursor-pointer"
+          className="mx-1 md:mx-12 my-6 md:my-10 text-xs md:text-base cursor-pointer"
         >
           About
         </Scroll>
@@ -20,7 +20,7 @@ export default function Navbar() {
           to="projects"
           smooth
           duration={400}
-          className="mx-2 md:mx-12 my-6 md:my-10 text-xs cursor-pointer"
+          className="mx-2 md:mx-12 my-6 md:my-10 text-xs md:text-base cursor-pointer"
         >
           Projects
         </Scroll>
@@ -28,7 +28,7 @@ export default function Navbar() {
           to="contact"
           smooth
           duration={400}
-          className="mr-6 md:mr-14 ml-1 md:ml-12 my-6 md:my-10 text-xs cursor-pointer"
+          className="mr-6 md:mr-14 ml-1 md:ml-12 my-6 md:my-10 text-xs md:text-base cursor-pointer"
         >
           Contact
         </Scroll>

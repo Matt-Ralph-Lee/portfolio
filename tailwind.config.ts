@@ -15,6 +15,10 @@ const config: Config = {
       colors: {
         bg: "#EBF0FF",
         baseblack: "#313238",
+        contentbase: "#F1F5FF",
+      },
+      boxShadow: {
+        "3xl": "0 0 32px 0 rgba(178, 178, 178, 0.25)",
       },
     },
   },
