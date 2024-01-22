@@ -1,12 +1,12 @@
 export default function About() {
   return (
     <div className="h-screen flex items-center bg-bg text-base font-montserrat">
-      <div className="h-3/5 mx-52 flex flex-col justify-between">
+      <div className="h-1/2 md:h-3/5 mx-12 md:mx-52 flex flex-col justify-between text-baseblack">
         <div>
-          <div className="text-2xl tracking-widest">About Me</div>
-          <div className="text-6xl tracking-wide">I'm Matthew</div>
+          <div className="text-lg md:text-2xl tracking-widest">About Me</div>
+          <div className="text-4xl md:text-6xl tracking-wide">I'm Matthew</div>
         </div>
-        <div className="font-notojp w-4/6">
+        <div className="font-notojp md:w-4/6 text-base leading-6">
           はじめまして、ましゅうです。
           <br />
           <br />
