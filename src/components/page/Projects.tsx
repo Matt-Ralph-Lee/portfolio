@@ -12,10 +12,10 @@ export default function Projects() {
           <Card width="w-full" height="h-32 md:h-36" />
         </div>
         <div className="pt-3 grid grid-cols-4 md:grid-cols-12 grid-rows-8 md:grid-rows-5 gap-4 md:gap-6">
-          <div className="pt-4 md:pt-10 text-base md:text-lg tracking-widest col-span-4 md:col-span-7 row-span-1">
+          <div className="mt-4 md:mt-8 text-base md:text-lg tracking-widest col-span-4 md:col-span-7 row-span-1">
             Machine Learning
           </div>
-          <div className="md:pt-10 text-base md:text-lg tracking-widest col-span-4 md:col-span-5 row-span-1 hidden md:block">
+          <div className="md:mt-8 text-base md:text-lg tracking-widest col-span-4 md:col-span-5 row-span-1 hidden md:block">
             Mobile App
           </div>
           <Card
@@ -34,7 +34,7 @@ export default function Projects() {
             width="w-full col-span-2 md:col-span-4"
             height="h-full row-span-2"
           />
-          <div className="flex items-end md:pt-10 text-base md:text-lg tracking-widest col-span-4 md:col-span-5 row-span-1 md:hidden">
+          <div className="flex items-end md:mt-8 text-base md:text-lg tracking-widest col-span-4 md:col-span-5 row-span-1 md:hidden">
             Mobile App
           </div>
           <Card

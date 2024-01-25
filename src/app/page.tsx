@@ -1,9 +1,10 @@
 "use client";
 
 import Spline from "@splinetool/react-spline";
-import Navbar from "../components/base/Navbar";
+import Navbar from "@/components/base/Navbar";
 import About from "@/components/page/About";
 import Projects from "@/components/page/Projects";
+import Contact from "@/components/page/Contact";
 
 export default function Home() {
   return (
@@ -18,8 +19,8 @@ export default function Home() {
       <section id="projects">
         <Projects />
       </section>
-      <section id="contact" className="h-screen">
-        <div>Contact</div>
+      <section id="contact">
+        <Contact />
       </section>
     </>
   );
