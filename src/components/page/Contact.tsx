@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import githubIcon from "../../../public/github-icon.svg";
 import igIcon from "../../../public/black-instagram-icon.svg";
