@@ -28,6 +28,7 @@ export default function Contact() {
       });
       const jsonData = await response.json();
       setSendResult(jsonData.message);
+      console.log(jsonData.result);
     } catch (err) {
       setSendResult("Error");
     }

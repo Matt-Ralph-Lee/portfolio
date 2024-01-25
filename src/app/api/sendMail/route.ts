@@ -27,8 +27,9 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({
       message: "Sent successfully",
       info: info,
+      result: true,
     });
   } catch (err) {
-    return NextResponse.json({ message: "Failed to send." });
+    return NextResponse.json({ message: "Failed to send.", result: err });
   }
 }
