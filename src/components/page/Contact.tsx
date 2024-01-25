@@ -89,7 +89,7 @@ export default function Contact() {
               />
               <div className="w-full flex flex-col justify-center items-center mt-5">
                 <button
-                  className="bg-baseblack text-contentbase w-1/2 md:w-1/4 py-2 rounded-full hover:opacity-90"
+                  className="bg-bgblack text-contentbase w-1/2 md:w-1/4 py-2 rounded-full hover:opacity-90"
                   type="submit"
                 >
                   Send
