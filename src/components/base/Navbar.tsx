@@ -1,3 +1,5 @@
+"use client";
+
 import { Link as Scroll } from "react-scroll";
 
 export default function Navbar() {
