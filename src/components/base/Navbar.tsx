@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div className="w-full flex justify-between items-center fixed text-gray-500 font-montserrat">
       <div className="ml-14 my-10 tracking-widest hidden md:block">
-        Matthew&aps;s Portfolio
+        Matthew&apos;s Portfolio
       </div>
       <div className="ml-6 my-6 tracking-widest block md:hidden">Portfolio</div>
       <div className="flex">
