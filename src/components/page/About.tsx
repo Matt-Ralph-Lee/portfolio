@@ -5,7 +5,7 @@ export default function About() {
         <div>
           <div className="text-lg md:text-2xl tracking-widest">About Me</div>
           <div className="text-4xl md:text-6xl tracking-widest">
-            I'm Matthew
+            I&apos;m Matthew
           </div>
         </div>
         <div className="font-notojp md:w-4/6 text-base leading-6">
