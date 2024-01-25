@@ -14,6 +14,7 @@ const config: Config = {
     extend: {
       colors: {
         bg: "#EBF0FF",
+        bgblack: "#0F1315",
         baseblack: "#313238",
         contentbase: "#F1F5FF",
       },

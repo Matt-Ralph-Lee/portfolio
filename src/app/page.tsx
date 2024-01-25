@@ -5,6 +5,7 @@ import Navbar from "@/components/base/Navbar";
 import About from "@/components/page/About";
 import Projects from "@/components/page/Projects";
 import Contact from "@/components/page/Contact";
+import Footer from "@/components/base/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
+      <Footer />
     </>
   );
 }
